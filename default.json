@@ -1,0 +1,19 @@
+{
+  "extends": ["config:base"],
+  "packageRules": [
+    {
+      "updateTypes": ["minor", "patch"],
+      "automerge": true
+    },
+    {
+      "updateTypes": ["major"],
+      "automerge": false
+    },
+    {
+      "packagePatterns": ["@material-ui/lab","@material-ui/pickers"],
+      "enabled": false
+    }
+  ],
+  "major": {"masterIssueApproval": true},
+  "requiredStatusChecks": null
+}
