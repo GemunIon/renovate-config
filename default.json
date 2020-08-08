@@ -15,5 +15,6 @@
     }
   ],
   "major": {"masterIssueApproval": true},
-  "requiredStatusChecks": null
+  "requiredStatusChecks": null,
+  "renovateFork":true
 }
