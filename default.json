@@ -10,7 +10,7 @@
       "automerge": false
     },
     {
-      "packagePatterns": ["@material-ui/lab","@material-ui/pickers"],
+      "packagePatterns": ["@material-ui/lab","@material-ui/pickers","formik","react-intl"],
       "enabled": false
     }
   ],
