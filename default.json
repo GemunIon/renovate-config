@@ -1,20 +1,35 @@
 {
-  "extends": ["config:base"],
+  "extends": [
+    "config:base"
+  ],
   "packageRules": [
     {
-      "updateTypes": ["minor", "patch"],
+      "updateTypes": [
+        "minor",
+        "patch"
+      ],
       "automerge": true
     },
     {
-      "updateTypes": ["major"],
+      "updateTypes": [
+        "major"
+      ],
       "automerge": false
     },
     {
-      "packagePatterns": ["@material-ui/lab","@material-ui/pickers","formik","react-intl"],
+      "packagePatterns": [
+        "@material-ui/lab",
+        "@material-ui/pickers",
+        "formik",
+        "react-intl"
+      ],
       "enabled": false
     }
   ],
-  "major": {"masterIssueApproval": true},
+  "major": {
+    "masterIssueApproval": true
+  },
   "requiredStatusChecks": null,
-  "renovateFork":true
+  "renovateFork": true,
+  "dependencyDashboard": true
 }
