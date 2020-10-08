@@ -21,6 +21,7 @@
         "@material-ui/lab",
         "@material-ui/pickers",
         "formik",
+        "notistack",
         "react-intl"
       ],
       "enabled": false
