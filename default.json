@@ -20,7 +20,11 @@
     {
       "packagePatterns": [
         "@material-ui/lab",
-        "@material-ui/pickers"
+        "@material-ui/pickers",
+        "formik",
+        "notistack",
+        "react-intl",
+        "react"
       ],
       "enabled": false
     }
