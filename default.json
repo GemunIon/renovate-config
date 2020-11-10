@@ -29,6 +29,7 @@
   "major": {
     "masterIssueApproval": true
   },
+  "requiredStatusChecks": null,
   "renovateFork": true,
   "dependencyDashboard": true
 }
