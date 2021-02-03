@@ -1,4 +1,3 @@
-{
   "extends": [
     "config:base",
     ":disableRateLimiting",
@@ -26,7 +25,6 @@
   "major": {
     "masterIssueApproval": true
   },
-  "requiredStatusChecks": null,
   "renovateFork": true,
   "dependencyDashboard": true
 }
