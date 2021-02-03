@@ -1,4 +1,5 @@
-  "extends": [
+{  
+"extends": [
     "config:base",
     ":disableRateLimiting",
     ":semanticCommits"
