@@ -1,11 +1,15 @@
-{  
-"extends": [
+{
+  "extends": [
     "config:base",
     ":disableRateLimiting",
     ":semanticCommits", 
     "group:allNonMajor"
   ],
   "packageRules": [
+    {
+      "matchPackagePatterns": ["^@trejgun/"],
+      "rollbackPrs": false
+    },
     {
       "updateTypes": [
         "minor",
@@ -22,6 +26,10 @@
     {
       "packagePatterns": [],
       "enabled": false
+    },
+    {
+      "matchDepTypes": ["devDependencies"],
+      "addLabels": ["dev"]
     }
   ],
   "major": {
