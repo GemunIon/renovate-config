@@ -2,7 +2,7 @@
   "extends": [
     "config:base",
     ":disableRateLimiting",
-    ":semanticCommits", 
+    ":semanticCommits",
     "group:allNonMajor"
   ],
   "packageRules": [
@@ -30,6 +30,10 @@
     {
       "matchDepTypes": ["devDependencies"],
       "addLabels": ["dev"]
+    },
+    {
+      "matchDepTypes": ["dependencies"],
+      "addLabels": ["deps"]
     }
   ],
   "major": {
