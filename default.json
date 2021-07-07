@@ -7,8 +7,8 @@
   ],
   "packageRules": [
     {
-      "matchPackagePatterns": ["eslint-plugin-import"],
-      "allowedVersions": "2.22.1"
+      "matchPackagePatterns": ["umzug"],
+      "allowedVersions": "3.0.0-beta.16"
     },
     {
       "matchPackagePatterns": ["^@trejgun/"],
