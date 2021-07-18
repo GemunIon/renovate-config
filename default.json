@@ -11,6 +11,10 @@
       "allowedVersions": "3.0.0-beta.16"
     },
     {
+      "matchPackagePatterns": ["notistack"],
+      "allowedVersions": "1.0.6"
+    },
+    {
       "matchPackagePatterns": ["^@trejgun/"],
       "rollbackPrs": false
     },
@@ -26,10 +30,6 @@
         "major"
       ],
       "automerge": false
-    },
-    {
-      "packagePatterns": [],
-      "enabled": false
     },
     {
       "matchDepTypes": ["devDependencies"],
