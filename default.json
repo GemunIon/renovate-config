@@ -7,15 +7,15 @@
   ],
   "packageRules": [
     {
-      "matchPackagePatterns": ["umzug"],
+      "matchPackagePatterns": ["^umzug"],
       "allowedVersions": "3.0.0-beta.16"
     },
     {
-      "matchPackagePatterns": ["@nestjs/terminus"],
+      "matchPackagePatterns": ["^@nestjs/terminus"],
       "allowedVersions": "8.0.0-next.0"
     },
     {
-      "matchPackagePatterns": ["notistack"],
+      "matchPackagePatterns": ["^notistack"],
       "allowedVersions": "1.0.6"
     },
     {
