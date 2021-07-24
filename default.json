@@ -11,6 +11,10 @@
       "allowedVersions": "3.0.0-beta.16"
     },
     {
+      "matchPackagePatterns": ["@nestjs/terminus"],
+      "allowedVersions": "8.0.0-next.0"
+    },
+    {
       "matchPackagePatterns": ["notistack"],
       "allowedVersions": "1.0.6"
     },
