@@ -33,7 +33,7 @@
       "updateTypes": [
         "major"
       ],
-      "automerge": false
+      "masterIssueApproval": true
     },
     {
       "matchDepTypes": ["devDependencies"],
