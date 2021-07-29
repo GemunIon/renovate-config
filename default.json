@@ -19,6 +19,10 @@
       "allowedVersions": "<=1.0.6"
     },
     {
+      "matchPackageNames": ["typeorm"],
+      "allowedVersions": "<=0.2.34"
+    },
+    {
       "matchPackagePatterns": ["^@trejgun/"],
       "rollbackPrs": false
     },
