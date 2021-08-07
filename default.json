@@ -27,7 +27,7 @@
       "allowedVersions": "<=0.2.34"
     },
     {
-      "matchPackagePatterns": ["^@trejgun/"],
+      "matchPackagePatterns": ["^@gemunionstudio/"],
       "rollbackPrs": false
     },
     {
