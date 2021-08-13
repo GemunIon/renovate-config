@@ -23,7 +23,7 @@
       "allowedVersions": "<=1.0.6"
     },
     {
-      "matchPackagePatterns": ["^@gemunionstudio/"],
+      "matchPackagePatterns": ["^@gemunion/"],
       "rollbackPrs": false
     },
     {
