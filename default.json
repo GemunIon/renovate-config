@@ -15,10 +15,6 @@
       "allowedVersions": "<=8.0.0-next.0"
     },
     {
-      "matchPackageNames": ["@material-ui/data-grid"],
-      "allowedVersions": "<=4.0.0-alpha.35"
-    },
-    {
       "matchPackageNames": ["notistack"],
       "allowedVersions": "<=1.0.6"
     },
