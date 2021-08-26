@@ -19,10 +19,6 @@
       "allowedVersions": "<=1.0.6"
     },
     {
-      "matchPackageNames": ["@paypal/react-paypal-js"],
-      "allowedVersions": "<=7.2.1"
-    },
-    {
       "matchPackagePatterns": ["^@gemunion/"],
       "rollbackPrs": false
     },
