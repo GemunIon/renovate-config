@@ -25,6 +25,10 @@
       "allowedVersions": "<=1.0.6"
     },
     {
+      "matchPackageNames": ["amqp-connection-manager"],
+      "allowedVersions": "<=3.3.0"
+    },
+    {
       "matchPackagePatterns": ["^@gemunion/"],
       "rollbackPrs": false
     },
