@@ -41,6 +41,10 @@
       "allowedVersions": "<=1.0.6-next.3"
     },
     {
+      "matchPackageNames": ["husky"],
+      "allowedVersions": "<=4.3.8"
+    },
+    {
       "matchPackagePatterns": ["^@gemunion/"],
       "rollbackPrs": false
     },
