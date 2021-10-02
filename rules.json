@@ -1,0 +1,75 @@
+{
+  "extends": [
+    "config:base",
+    ":disableRateLimiting",
+    ":semanticCommits",
+    "group:allNonMajor"
+  ],
+  "timezone": "Asia/Singapore",
+  "schedule": [
+    "before 5am on Saturday"
+  ],
+  "hostRules": [
+    {
+      "matchHost": "https://npm.pkg.github.com/",
+      "hostType": "npm",
+      "encrypted": {
+        "token": "wcFMA/xDdHCJBTolAQ/6Ahondr6tiwgnHC2JnQar5Ud8pN8A8dDQqXkF6HgtDZhC1r+1FwurAKG2C/XjHG17fjvrc2m/NI+ctF3aY+74kgMf/8U3C4bxd06kHL1VL+vgcBoYb1ka86rlvtOLqpEAnE6gKKxs6vdv7kDSEIjmPma/cOQIdxBKKmWa2nV0kSE1SsErSKCdEUKlXMXD88Y5yteXR2gAOkiaVXjwBmo3wsbfHJc+kbZMNaXyS27noHe+Wd9LKJzC12HA8naa31zMh2qLf/Rydt2z8HzfA1UrJLReGmXGp9bp5PVsLYFfZm+OgxfDL1uDZHNU4wVd+BlnhN5qH9Y4M4bCkLaNmEMeZhV9qbOdPXlTz6y6Z1GspWnBSDW8AP6Xq6lfbk28tTtfwf1a+vtozjNjghP7gJ5S0YQZwu2NdhNK07FiAXS3t3+FRjEt2o7XSbGYygP8bMkTUOr3Ko9d5TMMg4axpLt8qdtU+2b9hQ1+IXO+//ToRf9nnQUPvtEs6520RFQUDDRB/Nqod+foFIyb5budqQsreAmmLQ5HhXjMVnnqqieU+El0lfUWtpJ+6KBHEQxGRgCrwS/esnxVIDoTiVjSpVJ8wzISmcG3UW5fd+yhhcwkSfFrLFXje5Up4/DPwMkVcIUqQs4sqhSz/zMj+9ywTdbw6MNhPQcwP2d1Bx/Az1+jS4HSdwGmdg7TZtbzOrPixjsQWo10FyLNf1R/k6LifyUKFy7sVuMchOGjSd3rYZgcfAE04YJqe5D6jDCvtSy1Vpyhy0y1z7BiDDSwDgfGHJSMWt/l0dpiY2XrwaOKM8lGjt6B13DA4e+M6WOVewveHwEb0/Qe3es2CoCM"
+      }
+    }
+  ],
+  "npmrc": "@gemunion:registry=https://npm.pkg.github.com/",
+  "packageRules": [
+    {
+      "matchPackageNames": ["umzug"],
+      "allowedVersions": "<=3.0.0-beta.16"
+    },
+    {
+      "matchPackageNames": ["notistack"],
+      "allowedVersions": "<=1.0.6"
+    },
+    {
+      "matchPackageNames": ["@liaoliaots/nestjs-redis"],
+      "allowedVersions": "<=3.0.0-next.3"
+    },
+    {
+      "matchPackageNames": ["notistack"],
+      "allowedVersions": "<=1.0.6-next.3"
+    },
+    {
+      "matchPackageNames": ["husky"],
+      "allowedVersions": "<=4.3.8"
+    },
+    {
+      "matchPackagePatterns": ["^@gemunion/"],
+      "rollbackPrs": false
+    },
+    {
+      "updateTypes": [
+        "major",
+        "minor",
+        "patch"
+      ],
+      "automerge": false
+    },
+    {
+      "updateTypes": [
+        "major"
+      ],
+      "masterIssueApproval": true
+    },
+    {
+      "matchDepTypes": ["devDependencies"],
+      "addLabels": ["dev"]
+    },
+    {
+      "matchDepTypes": ["dependencies"],
+      "addLabels": ["deps"]
+    }
+  ],
+  "major": {
+    "masterIssueApproval": true
+  },
+  "renovateFork": true,
+  "dependencyDashboard": true
+}
