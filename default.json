@@ -14,10 +14,11 @@
       "matchHost": "https://npm.pkg.github.com/",
       "hostType": "npm",
       "encrypted": {
-        "token": "wcFMA/xDdHCJBTolARAAgny1DgLMs5ar3affcvzB0KxmrYLRBdqN4RKlmRDXTU5P6OrZ71/PcebyIXV5y/SptwQI9pxAt6u5zjqWzlXKv82Yls2E6pQSFfZjnfBZSxP6FpsS18VmsZheVnUm598zq76kqqRwKf/+XyRcBdDN7LN72VztYPGGfavfi7VwVgK6OEh6pa4/0umHZgK8/IW6ZS57bjfqlbW7xBpp9JnUDmz7Q2tc4Bu46XY8nGx4zddFoiMhGaasNZALIqJQtzWIwu1C6mBu5Klf159YQgpgwhezURHA1zYMWMh63eKwfdBige/B5396hKgXNnV2CvnZ91ynzkguNEui7ret5vDvBjLbar8vYRIk7y0nu9Q/NgW8HBKUNx6+oy9SeQbQPsFP61ELDE+OUYKAkGcexEI92iG1eWRsBKHMOjHlgOv29czRsB3Df7ByTIFn5WbWBchQioxeamIhpdrxK0YrsfOs8mWGR4WXwrQfn27uogVeyqtB7QJFzy6iRHHCX7BU4MRFty/2HOD941BGZOXEbncXcJUlxQoppiIYDVTPhQOoxgWaShhjQlKxUdMs6vGJXuAf1BSahiGfg+RuRfZ2wvP+t8lQpjETXlC3J+HFLE28KSFtFzMLp5nI+Shoov75cBRm1i9Yd9c7NR5rjsVGxdG+DDLVbdER/VKwSr1AUIyUqwHSeAERjMSBRsx24g2qpyH2JynW25tdmn4oEduYSA41GBvnAv3PApQ3ofQ45iJ4MDpBAk/LOifp1HdXGdlHuEhiLJlFin3uC+/YRByfprhMgx7955oKBdS2QwlQS8yo9cEdQ1lcSRQm9c4JMkRTYQCmU3FTKxtDes51BA"                  
+        "token": "wcFMA/xDdHCJBTolAQ//Y83R0omVqD7mYqMLFsoKEI4d5hizilD3leLimDYPgutnLDsL5Tpm7HYPv+VVN0t8vrYPqi7SVPgp0wXckGtgtdTwowCRPjyHMffXrx1/0FBDnW4BbYD1ofrwgCy+sDlJdrqhriwENfhxM7kd1MQHm2NOIZpo3+KIqIL8vELFKdDjlg/jJqWd2/zICIrX4veTgTSxZhHNsIIUjvnOC1kzvKucoXvCplOgEctsWiHkHpfx4SKySLfi17x9aw21y2nK4m9ea3jkKKqRvTOP+95orHPaQxQk+lb5jJ56SiIEFKFKIOWDtJSmOwd45A7vx1vlEfaqcUNLDByFVN+XY4OwergWrxmrDVSFzBf5KsQ7AyObcGyF7ECevjAw5Svk4rHwAXa9WZdkVQ4oZhllLttqLsa5ZArJDAtXP6w9RwsrTidngryqBVCEkDgWOiE8ngSKQkqqZUX45tC5BH0KgskfK/clnU+1siKCQz1l/pD3xZy3im0FoiHDzAOA4qAPwg2NxduaKt0Ft92eUqi7AWEGsJi1B3ymoZ2t/L4hnced9LpRq3IzE9mOzm0dUu11XGDqYSr9YhahWeiSOf9U1cHGwX8vEjshWm7213JxvnQVSXAXXhHW+6WXVuJboyk+Qe7H+V9GFHQgkeDhR3IzJoV/EtEUmwmDDsfOgwqm8ZnY4RPSeAGIEJF7d6fdECLwrGIju90Jfu4Ge2SGCstAPO7VvOS9uwbo4fGyjSSaC+uqA1rDffnofGfqYRJpgcPzAae9Iy/4lj/QaVyAseZwlD2jGalMPFynUqnY/B7IigpLO/mlEN/Mhlmf+EWh/uAX8dlZSs74J3guo3oUZA"                  
       }
     }
   ],
+  "npmrc": "@gemunion:registry=https://npm.pkg.github.com/",
   "packageRules": [
     {
       "matchPackageNames": ["umzug"],
