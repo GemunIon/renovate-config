@@ -1,6 +1,6 @@
 {
   "extends": [
-    "github>gemunion/renovate-config:rules"
+    "rules.json"
   ],
   "hostRules": [
     {
