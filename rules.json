@@ -27,7 +27,7 @@
       "rollbackPrs": false
     },
     {
-      "matchPackageNames": ["node.js"],
+      "matchPackageNames": ["node"],
       "allowedVersions": "<=16"
     },
     {
