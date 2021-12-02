@@ -19,10 +19,6 @@
       "allowedVersions": "<=4.3.8"
     },
     {
-      "matchPackageNames": ["lint-staged"],
-      "allowedVersions": "<=11.2.3"
-    },
-    {
       "matchPackagePatterns": ["^@gemunion/"],
       "rollbackPrs": false
     },
