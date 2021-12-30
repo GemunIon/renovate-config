@@ -20,7 +20,7 @@
     },
     {
       "matchPackageNames": ["@chainlink/contracts"],
-      "allowedVersions": "<=0.2.3"
+      "allowedVersions": "<=0.2.2"
     },
     {
       "matchPackagePatterns": ["^@gemunion/"],
