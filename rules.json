@@ -19,10 +19,6 @@
       "allowedVersions": "<=4.3.8"
     },
     {
-      "matchPackageNames": ["@chainlink/contracts"],
-      "allowedVersions": "<=0.2.2"
-    },
-    {
       "matchPackagePatterns": ["^@gemunion/"],
       "rollbackPrs": false
     },
