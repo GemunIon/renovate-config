@@ -15,10 +15,6 @@
       "allowedVersions": "<=4.3.8"
     },
     {
-      "matchPackageNames": ["typescript"],
-      "allowedVersions": "<=4.5.5"
-    },
-    {
       "matchPackagePatterns": ["^@gemunion/"],
       "rollbackPrs": false
     },
