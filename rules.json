@@ -15,10 +15,6 @@
       "allowedVersions": "<=4.3.8"
     },
     {
-      "matchPackageNames": ["typeorm"],
-      "allowedVersions": "<=0.2.45"
-    },
-    {
       "matchPackagePatterns": ["^@gemunion/"],
       "rollbackPrs": false
     },
