@@ -45,12 +45,22 @@
       "masterIssueApproval": true
     },
     {
-      "matchDepTypes": ["devDependencies"],
-      "addLabels": ["dev"]
+      "matchPackagePrefixes": ["@gemunion/"],
+      "commitMessageTopic": "Gemunion",
+      "groupName": "@Gemunion packages",
+      "groupSlug": "gemunion-packages"
     },
     {
-      "matchDepTypes": ["dependencies"],
-      "addLabels": ["deps"]
+      "matchPackagePrefixes": ["@mui/"],
+      "commitMessageTopic": "MUI",
+      "groupName": "@Mui packages",
+      "groupSlug": "mui-packages"
+    }
+    {
+      "matchPackagePrefixes": ["@nestjs/"],
+      "commitMessageTopic": "NestJS",
+      "groupName": "@NestJS packages",
+      "groupSlug": "nestjs-packages"
     }
   ],
   "major": {
