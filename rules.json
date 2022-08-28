@@ -19,6 +19,10 @@
       "allowedVersions": "<=4.8.0"
     },
     {
+      "matchPackageNames": ["eslint"],
+      "allowedVersions": "<=8.22.0"
+    },
+    {
       "matchPackagePatterns": ["^@gemunion/"],
       "rollbackPrs": false
     },
