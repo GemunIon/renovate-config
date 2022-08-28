@@ -23,10 +23,6 @@
       "allowedVersions": "<=8.22.0"
     },
     {
-      "matchPackagePatterns": ["^@gemunion/"],
-      "rollbackPrs": false
-    },
-    {
       "matchPackageNames": ["node"],
       "allowedVersions": "<=16"
     },
@@ -48,14 +44,15 @@
       "matchPackagePrefixes": ["@gemunion/"],
       "commitMessageTopic": "Gemunion",
       "groupName": "@Gemunion packages",
-      "groupSlug": "gemunion-packages"
+      "groupSlug": "gemunion-packages",
+      "rollbackPrs": false
     },
     {
       "matchPackagePrefixes": ["@mui/"],
       "commitMessageTopic": "MUI",
       "groupName": "@Mui packages",
       "groupSlug": "mui-packages"
-    }
+    },
     {
       "matchPackagePrefixes": ["@nestjs/"],
       "commitMessageTopic": "NestJS",
