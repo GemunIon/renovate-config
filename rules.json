@@ -27,6 +27,10 @@
       "allowedVersions": "<=6.3.0"
     },
     {
+      "matchPackageNames": ["ipfs-http-client"],
+      "allowedVersions": "<=56.0.3"
+    },
+    {
       "matchPackageNames": ["eslint"],
       "allowedVersions": "<=8.22.0"
     },
