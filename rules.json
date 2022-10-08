@@ -23,6 +23,10 @@
       "allowedVersions": "<=8.22.0"
     },
     {
+      "matchPackageNames": ["firebase"],
+      "allowedVersions": "<=9.10.0"
+    },
+    {
       "matchPackageNames": ["node"],
       "allowedVersions": "<=16"
     },
