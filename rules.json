@@ -27,6 +27,14 @@
       "allowedVersions": "<=8.22.0"
     },
     {
+      "matchPackageNames": ["react-router"],
+      "allowedVersions": "<=6.4.2"
+    },
+    {
+      "matchPackageNames": ["react-router-dom"],
+      "allowedVersions": "<=6.4.2"
+    },
+    {
       "matchPackageNames": ["firebase"],
       "allowedVersions": "<=9.10.0"
     },
