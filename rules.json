@@ -35,6 +35,14 @@
       "allowedVersions": "<=6.4.2"
     },
     {
+      "matchPackageNames": ["@openzeppelin/contracts"],
+      "allowedVersions": "<=4.7.3"
+    },
+    {
+      "matchPackageNames": ["@openzeppelin/contracts-upgradeable"],
+      "allowedVersions": "<=4.7.3"
+    },
+    {
       "matchPackageNames": ["firebase"],
       "allowedVersions": "<=9.10.0"
     },
