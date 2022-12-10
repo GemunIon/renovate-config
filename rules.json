@@ -23,10 +23,6 @@
       "allowedVersions": "<=56.0.3"
     },
     {
-      "matchPackageNames": ["eslint"],
-      "allowedVersions": "<=8.22.0"
-    },
-    {
       "matchPackageNames": ["react-router"],
       "allowedVersions": "<=6.4.2"
     },
