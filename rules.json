@@ -23,14 +23,6 @@
       "allowedVersions": "<=56.0.3"
     },
     {
-      "matchPackageNames": ["react-router"],
-      "allowedVersions": "<=6.4.2"
-    },
-    {
-      "matchPackageNames": ["react-router-dom"],
-      "allowedVersions": "<=6.4.2"
-    },
-    {
       "matchPackageNames": ["@openzeppelin/contracts"],
       "allowedVersions": "<=4.7.3"
     },
