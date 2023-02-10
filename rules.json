@@ -23,6 +23,10 @@
       "allowedVersions": "<=56.0.3"
     },
     {
+      "matchPackageNames": ["ts-mixer"],
+      "allowedVersions": "<=6.0.2"
+    },
+    {
       "matchPackageNames": ["@openzeppelin/contracts"],
       "allowedVersions": "<=4.7.3"
     },
