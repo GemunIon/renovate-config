@@ -11,24 +11,12 @@
   ],
   "packageRules": [
     {
-      "matchPackageNames": ["@gemunion/contracts"],
-      "allowedVersions": "<1.0.0"
-    },
-    {
       "matchPackageNames": ["husky"],
       "allowedVersions": "<=4.3.8"
     },
     {
       "matchPackageNames": ["ipfs-http-client"],
       "allowedVersions": "<=56.0.3"
-    },
-    {
-      "matchPackageNames": ["@openzeppelin/contracts"],
-      "allowedVersions": "<=4.7.3"
-    },
-    {
-      "matchPackageNames": ["@openzeppelin/contracts-upgradeable"],
-      "allowedVersions": "<=4.7.3"
     },
     {
       "matchPackageNames": ["firebase"],
