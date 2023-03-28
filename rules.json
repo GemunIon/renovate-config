@@ -53,8 +53,8 @@
     },
     {
       "matchPackagePrefixes": ["@mui/"],
-      "commitMessageTopic": "MUI",
-      "groupName": "@Mui packages",
+      "commitMessageTopic": "MaterialUI",
+      "groupName": "@MaterialUI packages",
       "groupSlug": "mui-packages"
     },
     {
