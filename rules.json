@@ -27,6 +27,10 @@
       "allowedVersions": "<4.9.0"
     },
     {
+      "matchPackageNames": ["nx"],
+      "allowedVersions": "<=15.8.9"
+    },
+    {
       "matchPackageNames": ["node"],
       "allowedVersions": "<=16"
     },
