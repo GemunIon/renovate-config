@@ -45,6 +45,13 @@
       "masterIssueApproval": true
     },
     {
+      "matchPackagePrefixes": ["@framework/"],
+      "commitMessageTopic": "Gemunion",
+      "groupName": "@Gemunion packages",
+      "groupSlug": "gemunion-packages",
+      "rollbackPrs": false
+    },
+    {
       "matchPackagePrefixes": ["@gemunion/"],
       "commitMessageTopic": "Gemunion",
       "groupName": "@Gemunion packages",
@@ -67,6 +74,7 @@
   "major": {
     "masterIssueApproval": true
   },
-  "renovateFork": true,
-  "dependencyDashboard": true
+  "dependencyDashboard": true,
+  "npmrc": "@gemunion:registry=https://npm.pkg.github.com/",
+  "npmrcMerge": true
 }
