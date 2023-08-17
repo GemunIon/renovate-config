@@ -46,10 +46,7 @@
     },
     {
       "matchPackagePrefixes": ["@framework/"],
-      "commitMessageTopic": "Gemunion",
-      "groupName": "@Gemunion packages",
-      "groupSlug": "gemunion-packages",
-      "rollbackPrs": false
+      "enabled": false
     },
     {
       "matchPackagePrefixes": ["@gemunion/"],
