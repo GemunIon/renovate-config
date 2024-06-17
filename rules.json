@@ -19,10 +19,6 @@
       "allowedVersions": "<=56.0.3"
     },
     {
-      "matchPackageNames": ["cron"],
-      "allowedVersions": "<=3.1.3"
-    },
-    {
       "matchPackageNames": ["@openzeppelin/contracts"],
       "allowedVersions": "<5.1.0"
     },
